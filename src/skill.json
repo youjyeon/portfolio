@@ -1,0 +1,182 @@
+{
+    
+        "HTML":{
+             "name":"HTML",
+              "per":80 ,
+              "per2":0 ,
+              "detail":"웹표준성 준수",
+              "detail_p":"80",
+              "detail2":"웹접근성 준수",
+              "detail_p2":"80",
+              "detail3":"크로싱브라우저 호환",
+              "detail_p3":"80",
+              "detail4":"디바이스별 호환(반응형)",
+              "detail_p4":"70",
+              "img":"../img/html2.png",
+              "style":"mobile"
+
+        },
+        "CSS & Sass":{
+            "name":"CSS & Sass",
+            "per":90,
+            "per2":80,
+            "detail":"컴포넌트 구조화",
+            "detail_p":"90",
+            "detail2":"SCSS를 바탕으로 Style 코드 최적화",
+            "detail_p2":"80",
+            "detail3":"Media 쿼리 활용",
+            "detail_p3":"80",
+            "detail4":"공통 모듈 설계(common)",
+            "detail_p4":"80",
+            "img":"../img/css.png",
+            "img2":"../img/sass.png"
+
+        }, 
+        "Photoshop":{
+            "name":"PHOTOSHOP",
+            "per":70,
+            "per2":0,
+            "detail":"기본 틀 사용",
+            "detail_p":"50",
+            "detail2":"페이지 시안 제작 가능 ",
+            "detail_p2":"60",
+            "detail3":"이미지 합성 및 보정 가능",
+            "detail_p3":"80",
+            "detail4":"",
+            "detail_p4":"",
+            "img":"../img/ps.png"
+        }, 
+        "JS & Jquery":{
+            "name":"JS & Jquery",
+            "per":80,
+            "per2":70,
+            "detail":"개념 및 이해",
+            "detail_p":"60",
+            "detail2":"로직 설계 및 구현",
+            "detail_p2":"40",
+            "detail3":"이벤트 활용",
+            "detail_p3":"80",
+            "detail4":"각종 플러그인 활용",
+            "detail_p4":"90",
+            "img":"../img/js.png",
+            "img2":"../img/jquery.png"
+        },
+         "React & Redux":{
+            "name":"REACT & Redux",
+            "per":60,
+            "per2":30,
+            "detail":"컴포넌트 구조 체계화",
+            "detail_p":"60",
+            "detail2":"Hooks이해 및 활용",
+            "detail_p2":"90",
+            "detail3":"State & Props 활용",
+            "detail_p3":"40",
+            "detail4":"패키지 활용 정도",
+            "detail_p4":"30",
+            "img":"../img/react.png",
+            "img2":"../img/redux.png"
+        },
+        "PHP":{
+            "name":"PHP",
+            "per":70,
+            "per2":0,
+            "detail":"웹서버 환경 설정 및 이해",
+            "detail_p":"60",
+            "detail2":"공통 모듈",
+            "detail_p2":"70",
+            "detail3":"CRUD문법 활용",
+            "detail_p3":"30",
+            "detail4":"DB연동",
+            "detail_p4":"60",
+            "img":"../img/php.png"
+        },
+        "MySql":{
+            "name":"MySql",
+            "per":60,
+            "per2":0,
+            "detail":"TABLE구조화",
+            "detail_p":"40",
+            "detail2":"DML(INSERT<UPDATE<DELETE<SELECT)",
+            "detail_p2":"60",
+            "detail3":"DDL(CREATE,ALTER,DROP)",
+            "detail_p3":"70",
+           
+            "img":"../img/mysql_w.png"
+        },
+        "Unity":{
+                "name":"Unity",
+                "per":50,
+                "per2":0,
+                "img":"../img/unity2.png",
+                "style":"mobile"
+
+            },
+            "C":{
+                "name":"C",
+                "per":60,
+                "per2":0,
+                "img":"../img/c.png"
+            },
+
+
+        "work":[
+            {
+                "num":"1",
+                "title":"Discovery Land Company",
+                "img":["../img/index_1.jpg","../img/img3.jpg","../img/logo1.png"],
+                "contribution":"100%",
+                "date":"2021.11.30 ~ 2021.12.02",
+                "tool":"HTML / CSS&SASS",
+                "epilogue" :"",
+                "detail":"첫 웹페이지 프로젝트로 discovery Land Company라는 사이트를 클론코딩",
+                "img1":["../img/discovery_main.png"],
+                "url":"https://youjyeon.github.io/juyeon-test/"
+            },
+            {
+                "num":"2",
+                "title":"앤티앤스 프레즐: auntieannes",
+                "img":["../img/brand-img03_m.png","../img/story.jpg","../img/aun3.png"],
+                "contribution":"100%",
+                "date":"2021.12.31 ~ 2022.01.19",
+                "tool":"HTML / CSS / Jquery / Swiper / Ajax ",
+                "epilogue" :"",
+                "detail":"모바일버전으로 클론코딩. 메인페이지 / 서브페이지로 Menu와 Search페이지 구현",
+                "screenshot":["../img/discovery_main.png"],
+                "url":"https://youjyeon.github.io/auntieannes_new/",
+                "style":"mobile"
+            },
+            {
+                "num":"3",
+                "title":"My Schedule",
+                "img":["../img/cal.png","../img/calendar.png","../img/s_icon.png"],
+                "contribution":"100%",
+                "date":"2022.01.26 ~ 2022.01.28",
+                "tool":"php /  Mysql  / FullCalendar Library ",
+                "epilogue" :"",
+                "detail":"fullcalendar 라이브러리를 이용해 db와 연동하여 스케줄을 작성하고 수정,삭제가 가능하고 목록을 볼 수있도록 구현",
+                "screenshot":["../img/discovery_main.png"],
+                "url":"http://juzzzang.dothome.co.kr/ju-project/"
+            },
+            {
+                "num":"4",
+                "title":"NOW MOVIE",
+                "img":["../img/movie1.png","../img/movie2.png","../img/movie3.png"],
+                "contribution":"100%",
+                "date":"2022.02.14 ~ 2022.02.23",
+                "tool" :"HTML / CSS  / React",
+                "epilogue" :"",
+                "detail":"React와  한국영화진흥위원회API를 받아 제작한 영화사이트로 영화 차트와 검색기능을 구현",
+                "screenshot":["../img/discovery_main.png"],
+                "url":"https://test-3-66d75.web.app/",
+                "style":"mobile"
+            }
+        ]
+
+           
+           
+        
+       
+    
+       
+  
+}

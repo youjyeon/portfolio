@@ -1,0 +1,21 @@
+@charset "utf-8";
+$content-width:70%;
+$p-tb100 : 100px 0;
+
+$mobile : 720px;
+$tablet : 767px;
+$pc:1280px;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+/* common.css */
+*{ box-sizing: border-box;     } //font-family: 'Noto Sans KR', sans-serif;
+body{margin:0;}
+h1,h2,h3,h4,h5,h6,p{margin:0;}
+h3{font-size: 20px;line-height: 1.1em;margin-bottom: 8px;}
+a{text-decoration:none; }
+img{vertical-align:middle;}
+table{border-collapse: collapse;}
+ul,li{list-style-type: none; padding:0; margin:0;
+}
+
+@media (min-width:$mobile) and(max-width:$tablet){
+}

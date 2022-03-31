@@ -1,0 +1,81 @@
+.content-wrap {
+  color: #fff;
+  width: 100%;
+  height: 850vh;
+  position: relative;
+  overflow: hidden;
+  padding: 60px 60px 0;
+}
+
+.content-wrap .content {
+  width: 100%;
+}
+
+.content-wrap .content .page-section {
+  position: relative;
+  padding-top: 1.8vh;
+}
+
+.content-wrap .content .page-section .first {
+  margin-left: 22%;
+  width: 15%;
+}
+
+.content-wrap .content .page-section .first .first_1 .num {
+  display: inline-block;
+  font-size: 0.85em;
+  margin-top: 9vh;
+}
+
+.content-wrap .content .page-section .first .first_1 .me {
+  width: 300px;
+  -webkit-transform: translateY(800px);
+          transform: translateY(800px);
+}
+
+.content-wrap .content .page-section .first2 .title {
+  font-size: 1.7em;
+  font-weight: 400;
+  line-height: 1em;
+  margin: 0px  0 80px 0;
+}
+
+.content-wrap .content .page-section .first2 .title .text {
+  width: 47%;
+  margin-left: 39%;
+}
+
+.content-wrap .content .page-section .first2 .title .text span {
+  font-size: 0.6em;
+  font-weight: 400;
+  line-height: 1em;
+}
+
+.content-wrap .content .page-section .introduce {
+  margin-left: 39%;
+  width: 47%;
+}
+
+.content-wrap .content .page-section .introduce p {
+  font-size: 5.3vw;
+  line-height: 1em;
+  font-weight: 500;
+}
+
+.content-wrap .content .page-section .introduce p .name {
+  color: #e94808;
+}
+
+.content-wrap .content .page-section .introduce .intro_2 {
+  margin-bottom: 700px;
+  color: #000;
+  overflow: visible;
+  text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+}
+
+.content-wrap .content .page-section .introduce .me2 {
+  width: 300px;
+  -webkit-transform: translate(670px, -200px);
+          transform: translate(670px, -200px);
+}
+/*# sourceMappingURL=main.css.map */

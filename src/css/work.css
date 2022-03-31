@@ -1,0 +1,144 @@
+.third {
+  margin-top: 20%;
+  margin-left: 22%;
+  width: 15%;
+}
+
+.third .third_1 .num {
+  display: inline-block;
+  font-size: 0.85em;
+  margin-top: 10vh;
+}
+
+.third2 .title {
+  font-size: 1.7em;
+  font-weight: 400;
+  line-height: 1em;
+  margin: 25%  0 100px 0;
+}
+
+.third2 .title .text {
+  width: 47%;
+  margin-left: 39%;
+  font-size: 0.6em;
+  font-weight: 400;
+  line-height: 1em;
+}
+
+.third2 .title .title_l {
+  margin-top: 40px;
+}
+
+.third2 .title .title_l .s_name1 {
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 300px;
+  line-height: 0.9em;
+  width: 47%;
+  margin-left: 39%;
+}
+
+.work_l {
+  width: 100%;
+  position: relative;
+}
+
+.work_l .w_ul {
+  z-index: 10;
+  margin: 12% 0 0 41%;
+  width: auto;
+}
+
+.work_l .w_ul .w_li {
+  font-weight: 500;
+  cursor: pointer;
+  position: relative;
+  margin-bottom: 15px;
+  font-size: 1.8vw;
+  width: 100%;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.work_l .w_ul .w_li a {
+  color: #fff;
+  width: 100%;
+  margin: 0;
+}
+
+.work_l .w_ul .w_li img {
+  width: 300px;
+  position: absolute;
+  right: -20px;
+  bottom: 0;
+}
+
+.work_l .w_ul .w_li::before {
+  content: '';
+  position: absolute;
+  left: -30px;
+  top: 5px;
+  font-size: 16px;
+  display: block;
+}
+
+.work_l .w_ul .w_li:hover {
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(30%, #e94808), color-stop(40%, transparent));
+  background: linear-gradient(to top, #e94808 30%, transparent 40%);
+  width: auto;
+}
+
+.work_l .w_ul .w_li:nth-of-type(1)::before {
+  content: 'I.';
+}
+
+.work_l .w_ul .w_li:nth-of-type(2)::before {
+  content: 'II.';
+}
+
+.work_l .w_ul .w_li:nth-of-type(3)::before {
+  content: 'III.';
+}
+
+.work_l .w_ul .w_li:nth-of-type(4)::before {
+  content: 'IV.';
+}
+
+.work_l img {
+  opacity: 0.5;
+}
+
+.work_l .imgs_1 {
+  position: absolute;
+  width: 300px;
+  left: 5%;
+  top: -25px;
+}
+
+.work_l .imgs_1 img {
+  width: 100%;
+}
+
+.work_l .imgs_2 {
+  position: absolute;
+  width: 600px;
+  height: 90px;
+  left: 30%;
+  top: 350px;
+}
+
+.work_l .imgs_2 img {
+  width: 100%;
+}
+
+.work_l .imgs_3 {
+  position: absolute;
+  right: 10%;
+  top: -20%;
+  width: 150px;
+}
+
+.work_l .imgs_3 img {
+  width: 50%;
+}
+/*# sourceMappingURL=work.css.map */

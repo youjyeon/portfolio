@@ -1,0 +1,122 @@
+.detail_1 {
+  overflow: hidden;
+  background-color: #fff;
+  width: 100%;
+}
+
+.detail_1 .title_1 {
+  width: 100%;
+  height: 650px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.detail_1 .title_1 .t_img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.detail_1 .title_1 .t_img img {
+  opacity: 0.5;
+  width: 100%;
+  height: 100%;
+}
+
+.detail_1 .title_1 .title {
+  position: absolute;
+  left: 10%;
+  top: 30%;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 3vw;
+  line-height: 0.9em;
+  white-space: pre-wrap;
+  text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;
+  color: #000;
+  z-index: 10;
+}
+
+.detail_1 .pro_detail {
+  line-height: 1.1;
+  padding: 10%;
+}
+
+.detail_1 .pro_detail li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.detail_1 .pro_detail li .de_name {
+  font-size: 18px;
+  font-weight: 600;
+  width: 40%;
+}
+
+.detail_1 .pro_detail li p {
+  text-align: center;
+  font-size: 13px;
+  width: 100%;
+  position: relative;
+}
+
+.detail_1 .pro_detail li p .link {
+  -webkit-transform: translateX(400px);
+          transform: translateX(400px);
+  color: #000;
+  width: 100%;
+}
+
+.detail_1 .pro_detail li p .link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  border: 1px solid #000;
+  width: 0;
+}
+
+.detail_1 .pro_detail li p .link:hover::after {
+  width: auto;
+}
+
+.detail_1 .img {
+  padding: 0 10%;
+}
+
+.detail_1 .img .iframe_view {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.detail_1 .img iframe {
+  width: 1500px;
+  height: 700px;
+  border-radius: 20px;
+  border: 1px solid #000;
+}
+
+.detail_1 .img img {
+  width: 100%;
+}
+
+.detail_1 .img iframe.mobile {
+  -webkit-transform: translateX(500px);
+          transform: translateX(500px);
+  width: 360px;
+  height: 640px;
+}
+
+.detail_1 .back {
+  font-weight: 600;
+  color: black;
+}
+/*# sourceMappingURL=detail.css.map */
